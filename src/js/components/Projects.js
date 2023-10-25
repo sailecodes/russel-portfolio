@@ -32,7 +32,6 @@ const Projects = () => {
     const metaContainer = btn.closest(".Projects--meta-container");
 
     if (btn.classList.contains("Projects--arrow-btn-left")) {
-      // const visContainer = btn.closest(".Projects--visual-container");
       const currTransformValFirst = getCurrTransformVal(metaContainer.querySelector(".Projects--img-container-first"));
 
       if (currTransformValFirst === 0) return;
@@ -40,7 +39,6 @@ const Projects = () => {
       metaContainer.querySelector(".Projects--arrow-btn-right").classList.add("Projects--arrow-btn-active");
       transitionSlide(metaContainer, false);
     } else if (btn.classList.contains("Projects--arrow-btn-right")) {
-      // const visContainer = btn.closest(".Projects--visual-container");
       const currTransformValLast = getCurrTransformVal(metaContainer.querySelector(".Projects--img-container-last"));
 
       if (currTransformValLast === 0) return;
@@ -83,7 +81,7 @@ const Projects = () => {
                   style={{ transform: "translateX(" + index * 104 + "%)" }}>
                   <img
                     className="Projects--img"
-                    src={path}
+                    src={"." + path}
                     alt="Aeyos"
                   />
                 </div>
