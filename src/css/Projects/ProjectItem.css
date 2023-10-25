@@ -1,0 +1,21 @@
+.Projects--item-container {
+  /* background-color: darkcyan; */
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  /* TODO: Utility property */
+  /* flex-direction: row-reverse; */
+
+  min-height: 35rem;
+  min-width: 120rem;
+
+  padding: 0 1rem;
+}
+
+/* .Projects--item-container-reverse {
+  flex-direction: row-reverse;
+} */
