@@ -1,12 +1,11 @@
 import "../../css/Hero.css";
-// import pf from "../../img//pf/tmp-pf.jpg";
 
 const Hero = () => {
   return (
     <div className="Hero--container">
       <section className="Hero">
         <img
-          src="/img/pf/tmp-pf.jpg"
+          src="./img/pf/tmp-pf.jpg"
           alt="Russel Koh headshot"
           className="Hero--pf"
         />
